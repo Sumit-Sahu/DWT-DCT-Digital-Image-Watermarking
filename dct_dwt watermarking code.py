@@ -17,8 +17,8 @@ def convert_image(image_name, size):
 
  
     image_array = np.array(img.getdata(), dtype=np.float).reshape((size, size))
-    print image_array[0][0]               
-    print image_array[10][10]             
+    print(image_array[0][0])             
+    print(image_array[10][10])             
 
     return image_array
 
